@@ -1,7 +1,12 @@
-export default function App() {
+import Layout from "./components/Layout";
+import TodoContainer from "./components/TodoContainer";
+
+const App = () => {
   return (
-    <>
-      <h1>투두리스트 타임어택</h1>
-    </>
+    <Layout>
+      <TodoContainer />
+    </Layout>
   );
-}
+};
+
+export default App;
